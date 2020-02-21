@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+        body {
+            background-color: white; 
+            color: rgba(0,0,0,1);
+        }
+        p {
+            text-align: justify; 
+            text-indent: 36px;
+        }
+    /*FORMATAÇAO DE IMAGENS COM LENGENDAS*/
+    figure.foto_legenda {
+        position: relative;
+        border: 8px solid white;
+        box-shadow: 1px 1px 4px blue; /*formatar um borda */
+        
+    }
+    figure.foto_legenda img {
+        width: 100%;
+        height: 100%;
+    }
+    figure.foto_legenda figcaption {
+        opacity: 0; /*opacidade nas fotos.*/
+        position: absolute; /*posiçao do que foi especificado na classe figcaption*/
+        top: 0px;
+        background-color: rgba(0,0,0,0.4);
+        color: white;
+        width: 100%;
+        height: 100%;
+        padding: 10px; /* espaço edentro o objeto*/
+        box-sizing: border-box;
+        transition: opacity 1s; /*efeito de transição, com o tempo de aparecer ou sumir a legenda*/
+
+    }
+
+    figure.foto_legenda:hover figcaption{
+        opacity: 1;
+    }
+
+    /* FORMATAÇÃO DO MENU*/
+    nav#menu ol {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -20px;
+        left: 700px;
+
+    }
+
+    nav#menu li {
+        display: inline-block; /* alinhar verticalmente*/
+        background-color: #dddddd;
+        padding: 10px;
+        margin: 2px;
+
+    }
+    nav#menu {
+        display: block;
+    }
+
+    nav#menu h1{
+        display: none;
+    }
