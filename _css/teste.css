@@ -1,0 +1,19 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'testeFonte';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+@font-face{
+    font-family: 'testeFonte2';
+    src: url('../_fonts/computer-font.ttf');
+}
+
+body {
+    background-color: aqua;
+}
+
+
+
+
+
+
