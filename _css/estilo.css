@@ -1,5 +1,14 @@
 @charset "utf-8";
+@font-face{
+    font-family: 'fonte';
+    src: url('..//_fonts/computer-font.ttf');
+}
+@font-face{
+    font-family: 'fonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+    
 
+}
         body {
             background-color: #dddddd; 
             color: rgba(0,0,0,1);
@@ -11,9 +20,36 @@
 
         header#cabecalho img#icone {
             position: absolute;
-            left: 900px;
+            left: 1500px;
             top: 40px;
         }
+        header#cabecalho {
+            border-bottom: 1.5px black solid ;
+            height: 137px;
+            background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 75px;
+            
+
+        }
+        header#cabecalho h1{
+            font-family: 'fontelogo', sans-serif;
+            font-size: 30px;
+            color: #666666;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+            padding:0;
+            margin-bottom: 0;
+
+
+    
+        }
+        header#cabecalho h2{
+            font-family:'fonte', Helvetica, sans-serif;
+            font-size: 25px;
+            color: #666666;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+            padding: 0;
+            margin-top: 0;
+        }
+
         /* FORMATAÇÃO DE INTERFACE, DELIMITADOS MARGENS */
         div#interface {
             width: 900px;
@@ -66,7 +102,7 @@
         text-transform: uppercase;
         position: absolute;
         top: -20px;
-        left: 500px;
+        left: 1080px;
 
     }
     nav#menu li:hover{
@@ -95,7 +131,96 @@
 
     }
     nav#menu a:hover {
-        color: blue;
+        color:green;
+        text-decoration: none;
         
     }
+
+    section#corpo{
+        display: block;
+        width: 500px;
+        float: left;
+        border-right: 1px solid #666666 ;
+        padding-right: 20px;
+
+
+    }
+    table#tabelaEspec {
+        border: 1px solid #666666;
+        border-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table#tabelaEspec td{
+        border: 1px solid #666666;
+        padding: 10px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    table#tabelaEspec td.colunaEsquerda{
+        color: #dddddd;
+        background-color: #666666;
+        vertical-align: top;
+        font-weight: bold;
+        
+
+    }
+    table#tabelaEspec td.colunaDireita{
+        background-color: #cecece;
+
+    }
+
+    table#tabelaEspec caption span{
+        color: black;
+        font-size: 8pt;
+        display: block;
+        float: right;
+        margin-top: 10px;
+        
+    }
+
+    table#tabelaEspec caption{
+        color: #888888 ;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    section#corpo hgroup#grupo h1 {
+        font-family: 'fonteLogo', sans-serif;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.8); /*contorno sombra*/
+        color: #666666;
+    }
+    section#corpo h3{
+       color: #666666;
+    }
+
+    aside#corpoLateral{
+        display: block;
+        width: 350px;
+        float: right;    
+
+    }
+
+    footer#rodape{
+        clear: both;
+        border-top: 1.5px solid #666666;
+
+
+    }
+    footer#rodape p {
+        text-align: center;
+        color:black;
+        
+
+    }
+ footer#rodape a{
+     text-decoration: none;
+     color: black;
+ }
+ footer#rodape a:hover{
+     color: blue;
+     
+
+ }
+
   
