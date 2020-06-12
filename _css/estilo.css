@@ -145,6 +145,37 @@
 
 
     }
+
+    article#noticiaPrincipal h2 {
+        font-size: 12pt;
+        color:#606060 ;
+        background-color: #dddddd;
+        padding:5px 0px 5px 10px;
+        margin: 10px 0px 10px 0px;
+
+
+    }
+    header#cabecalhoArtigo h1{
+        font-family: 'fonteLogo', sans-serif;
+        font: 20pt;
+        color: red;
+        margin-bottom: 0px;
+
+    }
+    header#cabecalhoArtigo h2{
+        font-size: 13pt;
+        color: blue;
+        background-color: white;
+        margin: 0px;
+
+    }
+    header#cabecalhoArtigo h3{
+
+
+    }
+
+
+
     table#tabelaEspec {
         border: 1px solid #666666;
         border-spacing: 0px;
@@ -202,7 +233,7 @@
     }
 
     footer#rodape{
-        clear: both;
+        clear: both; /*limpar conteudo do rodapé*/
         border-top: 1.5px solid #666666;
 
 
