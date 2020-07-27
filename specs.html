@@ -1,23 +1,65 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
 
-[AQUI ENTRA UMA FOTO]
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especs Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
 
-Glass > Especificações
-Raio-X no Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+</head>
 
-Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>Revolução do Google está chegando</h2>
+            </hgroup>
 
-[AQUI ENTRA UMA IMAGEM]
+            <img id="icone" src="_imagens/especificacoes.png">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ol type="1" start="2">
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="specs.html"> Especificações </a> </li>
+                    <li> <a href="fotos.html"> Fotos </a> </li>
+                    <li> <a href="multimidia.html"> Multimídia </a> </li>
+                    <li> <a href="fale-conosco.html"> Fale conosco </a> </li>
+                </ol>
+            </nav>
+        </header>
+        <section id="corpoFull">
+            <article id="noticiaPrincipal">
+                <header id="cabecalhoArtigo">
+                    <hgorup id="grupo">
+                        <h3> Glass > Especificações</h3>
+                        <h1>Raio-X no Google Glass</h1>
+                        <h2>By GB</h2>
+                        <h3 class="dir">Ano 2020</h3>
+                    </hgorup>
+                </header>
+                <p id="area">
+                    Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do
+                    Google
+                    Glass. Qualquer
+                    ponto vermelho vai te levar a um lugar cheio de novas informações.
+                </p>
+                <section id="conteudo">
+                    <img src="_imagens/glass-esquema-marcado.jpg" alt="" srcset="">
+                    <iframe src="google-glass.html" name="janela" id="frameEspec" scrolling="no"></iframe>
+                </section>
+            </article>        
+        </section>
+        <footer id="rodape">
 
-Copyright 2013 - by Gustavo Guanabara<
-Facebook | Twitter
+            <p>&copy; Copyright 2013 - by GB </br>
+                <a href="htttp:facebook.com.br" target="_blank">Facebook</a> | <a href="http:www.twiter.com.br"
+                    target="_blank"> Twitter </a> </p>
+        </footer>
+    </div>
+</body>
+
+</html>

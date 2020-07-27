@@ -1,0 +1,26 @@
+.dir{
+    display: block;
+    float: right;
+    font-size: 10px;
+}
+
+p#area{
+    padding-top: 18px;
+}
+
+section#conteudo{
+    width: 1000px;
+    margin: auto;
+
+}
+iframe#frameEspec{
+    width: 380px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frameEspec::-webkit-scrollbar{
+    display: none;
+    
+}
