@@ -20,8 +20,11 @@
 
         header#cabecalho img#icone {
             position: absolute;
-            left: 1500px;
             top: 40px;
+            width: 100px;
+            height: 100px;
+            right: 859px;
+        
         }
         header#cabecalho {
             border-bottom: 1.5px black solid ;
