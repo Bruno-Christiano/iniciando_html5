@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/estilo.css">
-    <link rel="stylesheet" href="_css/specs.css">
+    <link rel="stylesheet" href="_css/media.css">
     <title>Multimidia</title>
 
 </head>
@@ -22,13 +22,14 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ol type="1" start="2">
-                    <li> <a href="index.html"> Home </a> </li>
-                    <li> <a href="specs.html"> Especificações </a> </li>
-                    <li> <a href="fotos.html"> Fotos </a> </li>
-                    <li> <a href="multimidia.html"> Multimídia </a> </li>
-                    <li> <a href="fale-conosco.html"> Fale conosco </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/home.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')"> <a href="index.html"> Home </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/especificacoes.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')"> <a href="specs.html"> Especificações </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/fotos.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')"> <a href="fotos.html"> Fotos </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/multimidia.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')"> <a href="multimidia.html"> Multimídia </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/contato.png')" onmouseout="mudaFoto('./_imagens/multimidia.png')"> <a href="fale-conosco.html"> Fale conosco </a> </li>
                 </ol>
             </nav>
+
         </header>
         <section id="corpoFull">
             <article id="noticiaPrincipal">
@@ -40,15 +41,18 @@
                         <h3 class="dir">Ano 2020</h3>
                     </hgorup>
                 </header>
-            </article>
-            <section>
-                Áudio e Vídeo
+                <div id="tvAudio">
+                    
+                    <audio id="musica" src="_media/2009-lovers-carvings-bibio.mp3"  controls="controls" ></audio>
+                    <video id="video" src="_media/getting-started.mp4" poster="_imagens/video-mini03.jpg" controls></video>
+                </div>
 
-                [AQUI ENTRA UM VÍDEO]
-                [AQUI ENTRA UM ÁUDIO]
-s
-            </section>
+            </article>
+
+            
+
         </section>
+
         <footer id="rodape">
 
             <p>&copy; Copyright 2013 - by GB </br>
@@ -57,5 +61,6 @@ s
         </footer>
 
 </body>
+<script src="_javascript/funcoes.js"></script>
 
 </html>

@@ -7,3 +7,127 @@
 p#area{
     padding-top: 18px;
 }
+
+
+/*---inserir imagem via css----*/
+
+ul#album li span{
+    opacity: 0; /*ocultar os spans, verdade uma opacidade*/
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 0 5px 5px 0;
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+
+}
+/*efeito hover adicionado ao mover o mouse a cada li, que no caso se relaciona com a opacity,para aparece o que esta oculto*/
+ul#album li:hover span{
+    opacity: 1;
+}
+/*efeito hover adicionado ao mover o mouse a cada li( no caso as fotos)*/
+ul#album li:hover {
+    transform: scale(1.5); /*efeito zoom*/
+}
+
+
+ul#album{
+
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none; /*tiras os marcadores de li*/
+
+}
+/*configuração dos LI, tamanhos sombras e estilos que cada li ira receber, nesta caso sera um quadrado*/
+ul#album li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, .4) ;
+    transition: all .4s ease-in; /*all, monitora todos. e escolhe o tempo de duração dessa tarnsicao, ease-in a forma de uma ampliação suave.*/
+}
+
+/*inserir as imagens via css*/
+
+ul#album li#foto01{
+    background: url('../_imagens/galeria-01.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+}
+
+/*hover se DAR ao evento de passa o mouse. e a baixo esta o efeito*/
+
+ul#album li#foto01:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+
+
+ul#album li#foto02{
+    background: url('../_imagens/galeria-02.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+    
+}
+ul#album li#foto02:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+ul#album li#foto03{
+    background: url('../_imagens/galeria-03.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+
+}
+ul#album li#foto03:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+ul#album li#foto04{
+    background: url('../_imagens/galeria-04.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+}
+ul#album li#foto04:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+ul#album li#foto05{
+    background: url('../_imagens/galeria-05.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+}
+ul#album li#foto05:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+
+ul#album li#foto06{
+    background: url('../_imagens/galeria-06.jpg') no-repeat;
+    background-position: 50% 50%;  /*relaciona o meio da imagem, dentro do grid.*/
+    background-size: 400px 400px ; /*tamanho da imagem de fundo, tamanho real*/
+    background-color: white;
+}
+ul#album li#foto06:hover{
+
+    background-position: 0 0; /*posiciona a foto*/
+    background-size: 200px 200px; /*se relaciona ao tamanho da foto dentro do grid*/
+}
+
+

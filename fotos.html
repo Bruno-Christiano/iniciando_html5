@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="_css/estilo.css">
-    <link rel="stylesheet" href="_css/specs.css">
+    <link rel="stylesheet" href="_css/fotos.css">
 
     <title>Document</title>
 </head>
@@ -22,11 +22,11 @@
             <nav id="menu">
                 <h1>Menu Principal</h1>
                 <ol type="1" start="2">
-                    <li> <a href="index.html"> Home </a> </li>
-                    <li> <a href="specs.html"> Especificações </a> </li>
-                    <li> <a href="fotos.html"> Fotos </a> </li>
-                    <li> <a href="multimidia.html"> Multimídia </a> </li>
-                    <li> <a href="fale-conosco.html"> Fale conosco </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/home.png')" onmouseout="mudaFoto('./_imagens/fotos.png')"> <a href="index.html"> Home </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/especificacoes.png')" onmouseout="mudaFoto('./_imagens/fotos.png')"> <a href="specs.html"> Especificações </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/fotos.png')" onmouseout="mudaFoto('./_imagens/fotos.png')"> <a href="fotos.html"> Fotos </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/multimidia.png')" onmouseout="mudaFoto('./_imagens/fotos.png')"> <a href="multimidia.html"> Multimídia </a> </li>
+                    <li onmouseover="mudaFoto('./_imagens/contato.png')" onmouseout="mudaFoto('./_imagens/fotos.png')"> <a href="fale-conosco.html"> Fale conosco </a> </li>
                 </ol>
             </nav>
         </header>
@@ -34,8 +34,8 @@
             <article id="noticiaPrincipal">
                 <header id="cabecalhoArtigo">
                     <hgorup id="grupo">
-                        <h3> Glass > Especificações</h3>
-                        <h1>Raio-X no Google Glass</h1>
+                        <h3> Glass > Fotos</h3>
+                        <h1>Galeria de Imagem</h1>
                         <h2>By GB</h2>
                         <h3 class="dir">Ano 2020</h3>
                     </hgorup>
@@ -46,15 +46,15 @@
                     fotos para ver uma versão ampliada e com uma breve descrição.
                 </p>
         </section>
-
-       
-
-        - Agenda e lembretes
-        - Sergey Brin usando o Glass
-        - Leve e compacto
-        - Sensação de uma tela de 50"
-        - Vários tipos de lente
-        - Informações importantes
+      
+        <ul id="album">
+             <li id="foto01"> <span>Agenda e lembretes</span></li>
+             <li id="foto02"><span>Sergey Brin usando o Glass</span></li>
+             <li id="foto03"><span>Leve e compacto</span></li>
+             <li id="foto04"><span>Sensação de uma tela de 50</span></li>
+             <li id="foto05"><span>Vários tipos de lente</span></li>
+             <li id="foto06"><span>Informações importantes</span></li>
+        </ul>
 
         <footer id="rodape">
 
@@ -64,5 +64,6 @@
         </footer>
     </div>
 </body>
+<script src="_javascript/funcoes.js"></script>
 
 </html>
